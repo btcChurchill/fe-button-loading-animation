@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--=============== CSS ===============-->
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <title>Loading Button - Hill Technologies</title>
+    </head>
+    <body>
+        <div class="text">
+            <p>&copy;</p>
+            <p id="demo"></p>
+            <p><a href="https://github.com/btcChurchill?">Click here..</a></p>
+        </div>
+
+        <button class="button__loader">
+            <span class="button__text">
+                Loading...
+            </span>
+        </button>
+
+        <script>
+            const d = new Date();
+            let year = d.getFullYear();
+            document.getElementById("demo").innerHTML = year;
+    </script>
+    </body>
+</html>
